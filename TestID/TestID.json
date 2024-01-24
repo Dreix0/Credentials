@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://drop.awl.li/K6bWKx"
+            "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/TestID/TestID.jsonld"
         },
         "version": "1.0",
         "type": "TestID"

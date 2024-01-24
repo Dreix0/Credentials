@@ -1,10 +1,10 @@
 {
     "$metadata": {
-        "type": "License",
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/TestID/TestID.jsonld"
         },
-        "version": "1.0"
+        "version": "1.0",
+        "type": "License"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "A credential for driver's license ...",

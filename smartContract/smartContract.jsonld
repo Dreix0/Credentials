@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "smartContract": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:5dc2cbb5-e2b4-43d8-b709-c74fda04189f#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "smartContractID": {
+                        "@id": "polygon-vocab:smartContractID",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:16469f13-a0db-468a-bfe0-166f66c367aa"
+            }
+        }
+    ]
+}

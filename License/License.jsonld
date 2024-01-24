@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "License": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:c80a3779-fe94-4e8d-8e10-2a10455c59b6#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "firstName": {
+                        "@id": "polygon-vocab:firstName",
+                        "@type": "xsd:string"
+                    },
+                    "lastName": {
+                        "@id": "polygon-vocab:lastName",
+                        "@type": "xsd:string"
+                    },
+                    "issuanceDate": {
+                        "@id": "polygon-vocab:issuanceDate",
+                        "@type": "xsd:integer"
+                    },
+                    "smartContractAddress": {
+                        "@id": "polygon-vocab:smartContractAddress",
+                        "@type": "xsd:string"
+                    },
+                    "smartContractID": {
+                        "@id": "polygon-vocab:smartContractID",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:e54c12bd-2c71-49ef-9ab1-a4bf1e84eebd"
+            }
+        }
+    ]
+}

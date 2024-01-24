@@ -2,7 +2,7 @@
     "$metadata": {
         "type": "smartContract",
         "uris": {
-            "jsonLdContext": "ipfs://QmcT8hD4Qk8xiFF1GupKzE9nyd3j7nKA4qyTQgDcgHNyau"
+            "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/smartContract/smartContract.jsonld"
         },
         "version": "1.0"
     },

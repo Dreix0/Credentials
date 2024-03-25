@@ -1,0 +1,13 @@
+{
+  "title": "MATIC Balance",
+  "description": "The amount of MATIC in your account",
+  "issuerName": "Worldline Issuer",
+  "titleTextColor": "#46BEAA",
+  "descriptionTextColor": "#46BEAA",
+  "issuerTextColor": "#46BEAA",
+  "backgroundImageUrl": "https://www.usine-digitale.fr/mediatheque/2/0/6/000999602_896x598_c.jpg",
+  "logo": {
+    "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
+    "alt": "Logo Worldline"
+  }
+}

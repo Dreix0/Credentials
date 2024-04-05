@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/ID/ID%20Card.jsonld"
         },
         "version": "1.0",
         "type": "IDCard"
@@ -43,7 +43,7 @@
                 "Date_naissance": {
                     "description": "Date de naissance",
                     "title": "Date de naissance",
-                    "format": "date-time",
+                    "format": "date",
                     "type": "string"
                 },
                 "Lieu_naissance": {
@@ -73,7 +73,7 @@
                 "Date_expiration": {
                     "description": "Date d'expiration",
                     "title": "Date d'expiration",
-                    "format": "date-time",
+                    "format": "date",
                     "type": "string"
                 }
             },

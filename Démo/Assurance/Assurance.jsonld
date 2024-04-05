@@ -1,0 +1,66 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Assurance": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:00a5a82a-f9ea-4d29-a33a-dea75fa36ea9#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "Date_expiration": {
+                        "@id": "polygon-vocab:Date_expiration",
+                        "@type": "xsd:dateTime"
+                    },
+                    "Date_delivrance": {
+                        "@id": "polygon-vocab:Date_delivrance",
+                        "@type": "xsd:dateTime"
+                    },
+                    "Code_pays_et_assureur": {
+                        "@id": "polygon-vocab:Code_pays_et_assureur",
+                        "@type": "xsd:string"
+                    },
+                    "Numero_assurance": {
+                        "@id": "polygon-vocab:Numero_assurance",
+                        "@type": "xsd:string"
+                    },
+                    "Numero_immat": {
+                        "@id": "polygon-vocab:Numero_immat",
+                        "@type": "xsd:string"
+                    },
+                    "Categorie": {
+                        "@id": "polygon-vocab:Categorie",
+                        "@type": "xsd:string"
+                    },
+                    "Marque": {
+                        "@id": "polygon-vocab:Marque",
+                        "@type": "xsd:string"
+                    },
+                    "Pays_valide": {
+                        "@id": "polygon-vocab:Pays_valide",
+                        "@type": "xsd:string"
+                    },
+                    "Nom": {
+                        "@id": "polygon-vocab:Nom",
+                        "@type": "xsd:string"
+                    },
+                    "Prenom": {
+                        "@id": "polygon-vocab:Prenom",
+                        "@type": "xsd:string"
+                    },
+                    "Adresse": {
+                        "@id": "polygon-vocab:Adresse",
+                        "@type": "xsd:string"
+                    },
+                    "Info_assureur": {
+                        "@id": "polygon-vocab:Info_assureur"
+                    }
+                },
+                "@id": "urn:uuid:f0819006-a9c7-40a8-bc81-df020037b8fe"
+            }
+        }
+    ]
+}

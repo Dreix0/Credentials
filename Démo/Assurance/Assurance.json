@@ -1,0 +1,191 @@
+{
+    "$metadata": {
+        "uris": {
+            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+        },
+        "version": "1.0",
+        "type": "Assurance"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Un crédential pour l'assurance",
+    "title": "Assurance",
+    "properties": {
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "Date_expiration": {
+                    "description": "Date d'expiration",
+                    "title": "Date d'expiration",
+                    "format": "date",
+                    "type": "string"
+                },
+                "Date_delivrance": {
+                    "description": "Date de délivrance",
+                    "title": "Date de délivrance",
+                    "format": "date",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "Code_pays_et_assureur": {
+                    "description": "Code pays et assureur",
+                    "title": "Cide pays et assureur",
+                    "type": "string"
+                },
+                "Numero_assurance": {
+                    "description": "Numéro d'assurance",
+                    "title": "Numéro assurance",
+                    "type": "string"
+                },
+                "Numero_immat": {
+                    "description": "Numéro d'immatriculation",
+                    "title": "Numéro d'immatriculation",
+                    "type": "string"
+                },
+                "Categorie": {
+                    "description": "Catégorie du véhicule",
+                    "title": "Catégorie",
+                    "type": "string"
+                },
+                "Marque": {
+                    "description": "Marque du véhicule",
+                    "title": "Marque",
+                    "type": "string"
+                },
+                "Pays_valide": {
+                    "description": "Pays dans lesquels l'assurance est valide",
+                    "title": "Pays ",
+                    "type": "string"
+                },
+                "Nom": {
+                    "description": "Nom",
+                    "title": "Nom",
+                    "type": "string"
+                },
+                "Prenom": {
+                    "description": "Prénom",
+                    "title": "Prénom",
+                    "type": "string"
+                },
+                "Adresse": {
+                    "description": "Adresse",
+                    "title": "Adresse",
+                    "type": "string"
+                },
+                "Info_assureur": {
+                    "description": "Info sur l'assureur",
+                    "title": "Info assureur",
+                    "type": "object"
+                }
+            },
+            "required": [
+                "Date_expiration",
+                "Date_delivrance",
+                "Code_pays_et_assureur",
+                "Numero_assurance",
+                "Pays_valide",
+                "Nom",
+                "Prenom",
+                "Adresse",
+                "Info_assureur"
+            ],
+            "type": "object"
+        },
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "credentialSubject",
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSchema"
+    ],
+    "type": "object"
+}

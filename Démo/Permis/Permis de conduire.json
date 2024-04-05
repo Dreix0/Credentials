@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Permis/Permis%20de%20conduire.jsonld"
         },
         "version": "1.0",
         "type": "Permis"

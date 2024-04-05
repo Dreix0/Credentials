@@ -1,0 +1,59 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "IDCard": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:a9011b4d-c94f-4ed3-bc3c-a81538ca42cb#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "Nom": {
+                        "@id": "polygon-vocab:Nom",
+                        "@type": "xsd:string"
+                    },
+                    "Prenom_1": {
+                        "@id": "polygon-vocab:Prenom_1",
+                        "@type": "xsd:string"
+                    },
+                    "Prenom_2": {
+                        "@id": "polygon-vocab:Prenom_2",
+                        "@type": "xsd:string"
+                    },
+                    "Prenom_3": {
+                        "@id": "polygon-vocab:Prenom_3",
+                        "@type": "xsd:string"
+                    },
+                    "Date_naissance": {
+                        "@id": "polygon-vocab:Date_naissance",
+                        "@type": "xsd:dateTime"
+                    },
+                    "Lieu_naissance": {
+                        "@id": "polygon-vocab:Lieu_naissance",
+                        "@type": "xsd:string"
+                    },
+                    "Sexe": {
+                        "@id": "polygon-vocab:Sexe",
+                        "@type": "xsd:string"
+                    },
+                    "Nationalite": {
+                        "@id": "polygon-vocab:Nationalite",
+                        "@type": "xsd:string"
+                    },
+                    "Numero_document": {
+                        "@id": "polygon-vocab:Numero_document",
+                        "@type": "xsd:string"
+                    },
+                    "Date_expiration": {
+                        "@id": "polygon-vocab:Date_expiration",
+                        "@type": "xsd:dateTime"
+                    }
+                },
+                "@id": "urn:uuid:a3249a59-8a45-4f83-9dec-f65b0578e3bc"
+            }
+        }
+    ]
+}

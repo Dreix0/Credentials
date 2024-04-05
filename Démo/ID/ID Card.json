@@ -1,0 +1,184 @@
+{
+    "$metadata": {
+        "uris": {
+            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+        },
+        "version": "1.0",
+        "type": "IDCard"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Un crédential pour la carte d'identité",
+    "title": "ID Card",
+    "properties": {
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "Nom": {
+                    "description": "Nom",
+                    "title": "Nom",
+                    "type": "string"
+                },
+                "Prenom_1": {
+                    "description": "Premier prénom",
+                    "title": "Prénom 1",
+                    "type": "string"
+                },
+                "Prenom_2": {
+                    "description": "Deuxième prénom",
+                    "title": "Prénom 2",
+                    "type": "string"
+                },
+                "Prenom_3": {
+                    "description": "Troisième prénom",
+                    "title": "Prénom 3",
+                    "type": "string"
+                },
+                "Date_naissance": {
+                    "description": "Date de naissance",
+                    "title": "Date de naissance",
+                    "format": "date",
+                    "type": "string"
+                },
+                "Lieu_naissance": {
+                    "description": "Lieu de naissance",
+                    "title": "Lieu de naissance",
+                    "type": "string"
+                },
+                "Sexe": {
+                    "description": "Sexe",
+                    "enum": [
+                        "Homme",
+                        "Femme"
+                    ],
+                    "title": "Sexe",
+                    "type": "string"
+                },
+                "Nationalite": {
+                    "description": "Nationalité",
+                    "title": "Nationalité",
+                    "type": "string"
+                },
+                "Numero_document": {
+                    "description": "Numéro du document",
+                    "title": "Numéro du document",
+                    "type": "string"
+                },
+                "Date_expiration": {
+                    "description": "Date d'expiration",
+                    "title": "Date d'expiration",
+                    "format": "date",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "Nom",
+                "Prenom_1",
+                "Date_naissance",
+                "Lieu_naissance",
+                "Sexe",
+                "Nationalite",
+                "Numero_document",
+                "Date_expiration"
+            ],
+            "type": "object"
+        },
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "credentialSubject",
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSchema"
+    ],
+    "type": "object"
+}

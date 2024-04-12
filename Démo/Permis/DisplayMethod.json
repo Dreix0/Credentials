@@ -1,0 +1,13 @@
+{
+    "title": "Permis de conduire",
+    "description": "",
+    "issuerName": "Worldline Issuer",
+    "titleTextColor": "#46BEAA",
+    "descriptionTextColor": "#46BEAA",
+    "issuerTextColor": "#46BEAA",
+    "backgroundImageUrl": "https://evs-strapi-images.s3.eu-west-3.amazonaws.com/photo_fc_recuperation_point_permis_6ad696f843.jpg",
+    "logo": {
+      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
+      "alt": "Logo Worldline"
+    }
+  }

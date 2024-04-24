@@ -76,11 +76,6 @@
                     "description": "Adresse",
                     "title": "Adresse",
                     "type": "string"
-                },
-                "Info_assureur": {
-                    "description": "Info sur l'assureur",
-                    "title": "Info assureur",
-                    "type": "object"
                 }
             },
             "required": [
@@ -91,8 +86,7 @@
                 "Pays_valide",
                 "Nom",
                 "Prenom",
-                "Adresse",
-                "Info_assureur"
+                "Adresse"
             ],
             "type": "object"
         },

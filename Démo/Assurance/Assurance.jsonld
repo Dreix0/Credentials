@@ -54,9 +54,6 @@
                     "Adresse": {
                         "@id": "polygon-vocab:Adresse",
                         "@type": "xsd:string"
-                    },
-                    "Info_assureur": {
-                        "@id": "polygon-vocab:Info_assureur"
                     }
                 },
                 "@id": "urn:uuid:f0819006-a9c7-40a8-bc81-df020037b8fe"

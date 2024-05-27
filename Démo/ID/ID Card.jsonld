@@ -12,47 +12,46 @@
                     "polygon-vocab": "urn:uuid:a9011b4d-c94f-4ed3-bc3c-a81538ca42cb#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "LastName": {
-                        "@id": "polygon-vocab:Nom",
+                        "@id": "polygon-vocab:LastName",
                         "@type": "xsd:string"
                     },
                     "FirstName1": {
-                        "@id": "polygon-vocab:Prenom_1",
+                        "@id": "polygon-vocab:FirstName1",
                         "@type": "xsd:string"
                     },
                     "FirstName2": {
-                        "@id": "polygon-vocab:Prenom_2",
+                        "@id": "polygon-vocab:FirstName2",
                         "@type": "xsd:string"
                     },
                     "FirstName3": {
-                        "@id": "polygon-vocab:Prenom_3",
+                        "@id": "polygon-vocab:FirstName3",
                         "@type": "xsd:string"
                     },
                     "BirthDate": {
-                        "@id": "polygon-vocab:Date_naissance",
+                        "@id": "polygon-vocab:BirthDate",
                         "@type": "xsd:dateTime"
                     },
                     "BirthPlace": {
-                        "@id": "polygon-vocab:Lieu_naissance",
+                        "@id": "polygon-vocab:BirthPlace",
                         "@type": "xsd:string"
                     },
                     "Gender": {
-                        "@id": "polygon-vocab:Sexe",
+                        "@id": "polygon-vocab:Gender",
                         "@type": "xsd:string"
                     },
                     "Nationality": {
-                        "@id": "polygon-vocab:Nationalite",
+                        "@id": "polygon-vocab:Nationality",
                         "@type": "xsd:string"
                     },
                     "DocumentNumber": {
-                        "@id": "polygon-vocab:Numero_document",
+                        "@id": "polygon-vocab:DocumentNumber",
                         "@type": "xsd:string"
                     },
                     "ExpirationDate": {
-                        "@id": "polygon-vocab:Date_expiration",
+                        "@id": "polygon-vocab:ExpirationDate",
                         "@type": "xsd:dateTime"
                     }
-                },
-                "@id": "urn:uuid:a3249a59-8a45-4f83-9dec-f65b0578e3bc"
+                }
             }
         }
     ]

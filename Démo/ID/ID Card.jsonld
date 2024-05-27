@@ -11,43 +11,43 @@
                     "@protected": true,
                     "polygon-vocab": "urn:uuid:a9011b4d-c94f-4ed3-bc3c-a81538ca42cb#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "Nom": {
+                    "LastName": {
                         "@id": "polygon-vocab:Nom",
                         "@type": "xsd:string"
                     },
-                    "Prenom_1": {
+                    "FirstName1": {
                         "@id": "polygon-vocab:Prenom_1",
                         "@type": "xsd:string"
                     },
-                    "Prenom_2": {
+                    "FirstName2": {
                         "@id": "polygon-vocab:Prenom_2",
                         "@type": "xsd:string"
                     },
-                    "Prenom_3": {
+                    "FirstName3": {
                         "@id": "polygon-vocab:Prenom_3",
                         "@type": "xsd:string"
                     },
-                    "Date_naissance": {
+                    "BirthDate": {
                         "@id": "polygon-vocab:Date_naissance",
                         "@type": "xsd:dateTime"
                     },
-                    "Lieu_naissance": {
+                    "BirthPlace": {
                         "@id": "polygon-vocab:Lieu_naissance",
                         "@type": "xsd:string"
                     },
-                    "Sexe": {
+                    "Gender": {
                         "@id": "polygon-vocab:Sexe",
                         "@type": "xsd:string"
                     },
-                    "Nationalite": {
+                    "Nationality": {
                         "@id": "polygon-vocab:Nationalite",
                         "@type": "xsd:string"
                     },
-                    "Numero_document": {
+                    "DocumentNumber": {
                         "@id": "polygon-vocab:Numero_document",
                         "@type": "xsd:string"
                     },
-                    "Date_expiration": {
+                    "ExpirationDate": {
                         "@id": "polygon-vocab:Date_expiration",
                         "@type": "xsd:dateTime"
                     }

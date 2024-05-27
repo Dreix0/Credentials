@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:a9011b4d-c94f-4ed3-bc3c-a81538ca42cb#",
+                    "polygon-vocab": "urn:uuid:e1430ffc-9d37-4af4-b78b-8c9682a6fd07#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "LastName": {
                         "@id": "polygon-vocab:LastName",
@@ -51,7 +51,8 @@
                         "@id": "polygon-vocab:ExpirationDate",
                         "@type": "xsd:dateTime"
                     }
-                }
+                },
+                "@id": "urn:uuid:edaa4622-02f0-44f2-b2e0-ebe3184c1185"
             }
         }
     ]

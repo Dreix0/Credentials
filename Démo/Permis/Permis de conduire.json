@@ -4,11 +4,11 @@
             "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Permis/Permis%20de%20conduire.jsonld"
         },
         "version": "1.0",
-        "type": "Permis"
+        "type": "License"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "Un crédential pour le permis de conduire",
-    "title": "Permis de conduire",
+    "description": "A driving license credential",
+    "title": "Driving License",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",
@@ -20,62 +20,62 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "Nom": {
-                    "description": "Nom",
-                    "title": "Nom",
+                "Last_Name": {
+                    "description": "Last name",
+                    "title": "Last name",
                     "type": "string"
                 },
-                "Prenom_1": {
-                    "description": "Premier prénom",
-                    "title": "Prénom 1",
+                "First_Name_1": {
+                    "description": "First given name",
+                    "title": "First given name",
                     "type": "string"
                 },
-                "Prenom_2": {
-                    "description": "Deuxième prénom",
-                    "title": "Prénom 2",
+                "First_Name_2": {
+                    "description": "Second given name",
+                    "title": "Second given name",
                     "type": "string"
                 },
-                "Prenom_3": {
-                    "description": "Troisième prénom",
-                    "title": "Prénom 3",
+                "First_Name_3": {
+                    "description": "Third given name",
+                    "title": "Third given name",
                     "type": "string"
                 },
-                "Date_naissance": {
-                    "description": "Date de naissance",
-                    "title": "Date de naissance",
+                "Birth_Date": {
+                    "description": "Birth date",
+                    "title": "Birth date",
                     "format": "date",
                     "type": "string"
                 },
-                "Lieu_naissance": {
-                    "description": "Lieu de naissance",
-                    "title": "Lieu de naissance",
+                "Birth_Place": {
+                    "description": "Birth place",
+                    "title": "Birth place",
                     "type": "string"
                 },
-                "Nationalite": {
-                    "description": "Nationalité",
-                    "title": "Nationalité",
+                "Nationality": {
+                    "description": "Nationality",
+                    "title": "Nationality",
                     "type": "string"
                 },
-                "Numero_document": {
-                    "description": "Numéro du document",
-                    "title": "Numéro du document",
+                "Document_Number": {
+                    "description": "Document number",
+                    "title": "Document number",
                     "type": "string"
                 },
-                "Date_expiration": {
-                    "description": "Date d'expiration",
-                    "title": "Date d'expiration",
+                "Expiration_Date": {
+                    "description": "Expiration date",
+                    "title": "Expiration date",
                     "format": "date",
                     "type": "string"
                 },
-                "Date_delivrance": {
-                    "description": "Date de délivrance",
-                    "title": "Date de délivrance",
+                "Issuance_Date": {
+                    "description": "Issuance date",
+                    "title": "Issuance date",
                     "format": "date",
                     "type": "string"
                 },
-                "Type_permis": {
-                    "description": "Dates de délivrance des différents permis",
-                    "title": "Type de permis",
+                "License_Type": {
+                    "description": "Issuance dates of various licenses",
+                    "title": "License type",
                     "properties": {
                         "AM": {
                             "description": "AM",
@@ -131,14 +131,14 @@
                 }
             },
             "required": [
-                "Nom",
-                "Prenom_1",
-                "Date_naissance",
-                "Lieu_naissance",
-                "Nationalite",
-                "Numero_document",
-                "Date_expiration",
-                "Date_delivrance"
+                "Last_Name",
+                "First_Name_1",
+                "Birth_Date",
+                "Birth_Place",
+                "Nationality",
+                "Document_Number",
+                "Expiration_Date",
+                "Issuance_Date"
             ],
             "type": "object"
         },
@@ -183,7 +183,7 @@
             ],
             "items": {
                 "type": "string"
-            }
+            ]
         },
         "credentialSchema": {
             "properties": {

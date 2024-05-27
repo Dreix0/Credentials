@@ -7,7 +7,7 @@
         "type": "IDCard"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "Un crédential pour la carte d'identité",
+    "description": "A credential for the identity card",
     "title": "ID Card",
     "properties": {
         "credentialSubject": {
@@ -20,72 +20,72 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "Nom": {
-                    "description": "Nom",
-                    "title": "Nom",
+                "LastName": {
+                    "description": "Last Name",
+                    "title": "Last Name",
                     "type": "string"
                 },
-                "Prenom_1": {
-                    "description": "Premier prénom",
-                    "title": "Prénom 1",
+                "FirstName1": {
+                    "description": "First name",
+                    "title": "First Name 1",
                     "type": "string"
                 },
-                "Prenom_2": {
-                    "description": "Deuxième prénom",
-                    "title": "Prénom 2",
+                "FirstName2": {
+                    "description": "Second name",
+                    "title": "First Name 2",
                     "type": "string"
                 },
-                "Prenom_3": {
-                    "description": "Troisième prénom",
-                    "title": "Prénom 3",
+                "FirstName3": {
+                    "description": "Third name",
+                    "title": "First Name 3",
                     "type": "string"
                 },
-                "Date_naissance": {
-                    "description": "Date de naissance",
-                    "title": "Date de naissance",
+                "BirthDate": {
+                    "description": "Date of birth",
+                    "title": "Date of birth",
                     "format": "date",
                     "type": "string"
                 },
-                "Lieu_naissance": {
-                    "description": "Lieu de naissance",
-                    "title": "Lieu de naissance",
+                "BirthPlace": {
+                    "description": "Place of birth",
+                    "title": "Place of birth",
                     "type": "string"
                 },
-                "Sexe": {
-                    "description": "Sexe",
+                "Gender": {
+                    "description": "Gender",
                     "enum": [
-                        "Homme",
-                        "Femme"
+                        "Male",
+                        "Female"
                     ],
-                    "title": "Sexe",
+                    "title": "Gender",
                     "type": "string"
                 },
-                "Nationalite": {
-                    "description": "Nationalité",
-                    "title": "Nationalité",
+                "Nationality": {
+                    "description": "Nationality",
+                    "title": "Nationality",
                     "type": "string"
                 },
-                "Numero_document": {
-                    "description": "Numéro du document",
-                    "title": "Numéro du document",
+                "DocumentNumber": {
+                    "description": "Document number",
+                    "title": "Document number",
                     "type": "string"
                 },
-                "Date_expiration": {
-                    "description": "Date d'expiration",
-                    "title": "Date d'expiration",
+                "ExpirationDate": {
+                    "description": "Expiration date",
+                    "title": "Expiration date",
                     "format": "date",
                     "type": "string"
                 }
             },
             "required": [
-                "Nom",
-                "Prenom_1",
-                "Date_naissance",
-                "Lieu_naissance",
-                "Sexe",
-                "Nationalite",
-                "Numero_document",
-                "Date_expiration"
+                "LastName",
+                "FirstName1",
+                "BirthDate",
+                "BirthPlace",
+                "Gender",
+                "Nationality",
+                "DocumentNumber",
+                "ExpirationDate"
             ],
             "type": "object"
         },

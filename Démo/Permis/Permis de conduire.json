@@ -7,8 +7,8 @@
         "type": "License"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "A driving license credential",
-    "title": "Driving License",
+    "description": "A credential for a driver's license",
+    "title": "Driver's License",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",
@@ -40,15 +40,15 @@
                     "title": "Third given name",
                     "type": "string"
                 },
-                "Birth_Date": {
-                    "description": "Birth date",
-                    "title": "Birth date",
+                "Date_of_Birth": {
+                    "description": "Date of birth",
+                    "title": "Date of birth",
                     "format": "date",
                     "type": "string"
                 },
-                "Birth_Place": {
-                    "description": "Birth place",
-                    "title": "Birth place",
+                "Place_of_Birth": {
+                    "description": "Place of birth",
+                    "title": "Place of birth",
                     "type": "string"
                 },
                 "Nationality": {
@@ -133,8 +133,8 @@
             "required": [
                 "Last_Name",
                 "First_Name_1",
-                "Birth_Date",
-                "Birth_Place",
+                "Date_of_Birth",
+                "Place_of_Birth",
                 "Nationality",
                 "Document_Number",
                 "Expiration_Date",
@@ -143,7 +143,11 @@
             "type": "object"
         },
         "@context": {
-            "type": "object"
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
         },
         "expirationDate": {
             "format": "date-time",
@@ -157,7 +161,11 @@
             "type": "string"
         },
         "issuer": {
-            "type": "object",
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
             "properties": {
                 "id": {
                     "format": "uri",
@@ -169,13 +177,15 @@
             ]
         },
         "type": {
-            "type": "array",
+            "type": [
+                "string",
+                "array"
+            ],
             "items": {
                 "type": "string"
             }
         },
         "credentialSchema": {
-            "type": "object",
             "properties": {
                 "id": {
                     "format": "uri",
@@ -188,12 +198,12 @@
             "required": [
                 "id",
                 "type"
-            ]
+            ],
+            "type": "object"
         },
         "credentialStatus": {
             "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
             "title": "Credential Status",
-            "type": "object",
             "properties": {
                 "id": {
                     "description": "Id URL of the credentialStatus.",
@@ -210,7 +220,8 @@
             "required": [
                 "id",
                 "type"
-            ]
+            ],
+            "type": "object"
         }
     },
     "required": [

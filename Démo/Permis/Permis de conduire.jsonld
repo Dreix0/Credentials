@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:c45f88ff-3207-442c-8f8d-f95755676ed1#",
+                    "polygon-vocab": "urn:uuid:9e827bcf-3177-4b00-97b8-0baad772aa23#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "Last_Name": {
                         "@id": "polygon-vocab:Last_Name",
@@ -27,12 +27,12 @@
                         "@id": "polygon-vocab:First_Name_3",
                         "@type": "xsd:string"
                     },
-                    "Birth_Date": {
-                        "@id": "polygon-vocab:Birth_Date",
+                    "Date_of_Birth": {
+                        "@id": "polygon-vocab:Date_of_Birth",
                         "@type": "xsd:dateTime"
                     },
-                    "Birth_Place": {
-                        "@id": "polygon-vocab:Birth_Place",
+                    "Place_of_Birth": {
+                        "@id": "polygon-vocab:Place_of_Birth",
                         "@type": "xsd:string"
                     },
                     "Nationality": {
@@ -89,7 +89,7 @@
                         "@id": "polygon-vocab:License_Type"
                     }
                 },
-                "@id": "urn:uuid:edcb1f6e-b417-46d3-8cdf-e9a19956cf98"
+                "@id": "urn:uuid:130d190f-7cd5-4c97-a881-05c0be79ea76"
             }
         }
     ]

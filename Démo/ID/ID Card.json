@@ -14,12 +14,6 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "LastName": {
                     "description": "Last Name",
                     "title": "Last Name",
@@ -74,6 +68,12 @@
                     "description": "Expiration date",
                     "title": "Expiration date",
                     "format": "date",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
                     "type": "string"
                 }
             },

@@ -4,25 +4,25 @@
             "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Assurance/Assurance.jsonld"
         },
         "version": "1.0",
-        "type": "Assurance"
+        "type": "Insurance"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "Un crédential pour l'assurance",
-    "title": "Assurance",
+    "description": "An insurance credential",
+    "title": "Insurance",
     "properties": {
         "credentialSubject": {
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "Date_expiration": {
-                    "description": "Date d'expiration",
-                    "title": "Date d'expiration",
+                "Expiration_Date": {
+                    "description": "Expiration date",
+                    "title": "Expiration date",
                     "format": "date",
                     "type": "string"
                 },
-                "Date_delivrance": {
-                    "description": "Date de délivrance",
-                    "title": "Date de délivrance",
+                "Issuance_Date": {
+                    "description": "Issuance date",
+                    "title": "Issuance date",
                     "format": "date",
                     "type": "string"
                 },
@@ -32,61 +32,61 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "Code_pays_et_assureur": {
-                    "description": "Code pays et assureur",
-                    "title": "Cide pays et assureur",
+                "Country_Code_and_Insurer": {
+                    "description": "Country code and insurer",
+                    "title": "Country code and insurer",
                     "type": "string"
                 },
-                "Numero_assurance": {
-                    "description": "Numéro d'assurance",
-                    "title": "Numéro assurance",
+                "Insurance_Number": {
+                    "description": "Insurance number",
+                    "title": "Insurance number",
                     "type": "string"
                 },
-                "Numero_immat": {
-                    "description": "Numéro d'immatriculation",
-                    "title": "Numéro d'immatriculation",
+                "Registration_Number": {
+                    "description": "Registration number",
+                    "title": "Registration number",
                     "type": "string"
                 },
-                "Categorie": {
-                    "description": "Catégorie du véhicule",
-                    "title": "Catégorie",
+                "Category": {
+                    "description": "Vehicle category",
+                    "title": "Category",
                     "type": "string"
                 },
-                "Marque": {
-                    "description": "Marque du véhicule",
-                    "title": "Marque",
+                "Brand": {
+                    "description": "Vehicle brand",
+                    "title": "Brand",
                     "type": "string"
                 },
-                "Pays_valide": {
-                    "description": "Pays dans lesquels l'assurance est valide",
-                    "title": "Pays ",
+                "Valid_Countries": {
+                    "description": "Countries in which the insurance is valid",
+                    "title": "Countries",
                     "type": "string"
                 },
-                "Nom": {
-                    "description": "Nom",
-                    "title": "Nom",
+                "Last_Name": {
+                    "description": "Last name",
+                    "title": "Last name",
                     "type": "string"
                 },
-                "Prenom": {
-                    "description": "Prénom",
-                    "title": "Prénom",
+                "First_Name": {
+                    "description": "First name",
+                    "title": "First name",
                     "type": "string"
                 },
-                "Adresse": {
-                    "description": "Adresse",
-                    "title": "Adresse",
+                "Address": {
+                    "description": "Address",
+                    "title": "Address",
                     "type": "string"
                 }
             },
             "required": [
-                "Date_expiration",
-                "Date_delivrance",
-                "Code_pays_et_assureur",
-                "Numero_assurance",
-                "Pays_valide",
-                "Nom",
-                "Prenom",
-                "Adresse"
+                "Expiration_Date",
+                "Issuance_Date",
+                "Country_Code_and_Insurer",
+                "Insurance_Number",
+                "Valid_Countries",
+                "Last_Name",
+                "First_Name",
+                "Address"
             ],
             "type": "object"
         },

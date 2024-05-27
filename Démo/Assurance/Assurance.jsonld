@@ -5,58 +5,58 @@
             "@version": 1.1,
             "id": "@id",
             "type": "@type",
-            "Assurance": {
+            "Insurance": {
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:00a5a82a-f9ea-4d29-a33a-dea75fa36ea9#",
+                    "polygon-vocab": "urn:uuid:a58debb0-9251-424e-8d3a-bb2b532d7bbb#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "Date_expiration": {
-                        "@id": "polygon-vocab:Date_expiration",
+                    "Expiration_Date": {
+                        "@id": "polygon-vocab:Expiration_Date",
                         "@type": "xsd:dateTime"
                     },
-                    "Date_delivrance": {
-                        "@id": "polygon-vocab:Date_delivrance",
+                    "Issuance_Date": {
+                        "@id": "polygon-vocab:Issuance_Date",
                         "@type": "xsd:dateTime"
                     },
-                    "Code_pays_et_assureur": {
-                        "@id": "polygon-vocab:Code_pays_et_assureur",
+                    "Country_Code_and_Insurer": {
+                        "@id": "polygon-vocab:Country_Code_and_Insurer",
                         "@type": "xsd:string"
                     },
-                    "Numero_assurance": {
-                        "@id": "polygon-vocab:Numero_assurance",
+                    "Insurance_Number": {
+                        "@id": "polygon-vocab:Insurance_Number",
                         "@type": "xsd:string"
                     },
-                    "Numero_immat": {
-                        "@id": "polygon-vocab:Numero_immat",
+                    "Registration_Number": {
+                        "@id": "polygon-vocab:Registration_Number",
                         "@type": "xsd:string"
                     },
-                    "Categorie": {
-                        "@id": "polygon-vocab:Categorie",
+                    "Category": {
+                        "@id": "polygon-vocab:Category",
                         "@type": "xsd:string"
                     },
-                    "Marque": {
-                        "@id": "polygon-vocab:Marque",
+                    "Brand": {
+                        "@id": "polygon-vocab:Brand",
                         "@type": "xsd:string"
                     },
-                    "Pays_valide": {
-                        "@id": "polygon-vocab:Pays_valide",
+                    "Valid_Countries": {
+                        "@id": "polygon-vocab:Valid_Countries",
                         "@type": "xsd:string"
                     },
-                    "Nom": {
-                        "@id": "polygon-vocab:Nom",
+                    "Last_Name": {
+                        "@id": "polygon-vocab:Last_Name",
                         "@type": "xsd:string"
                     },
-                    "Prenom": {
-                        "@id": "polygon-vocab:Prenom",
+                    "First_Name": {
+                        "@id": "polygon-vocab:First_Name",
                         "@type": "xsd:string"
                     },
-                    "Adresse": {
-                        "@id": "polygon-vocab:Adresse",
+                    "Address": {
+                        "@id": "polygon-vocab:Address",
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:f0819006-a9c7-40a8-bc81-df020037b8fe"
+                "@id": "urn:uuid:59edc039-ab8b-4685-b313-9cb786a2eaf0"
             }
         }
     ]

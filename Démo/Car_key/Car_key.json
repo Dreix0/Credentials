@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Car_key/Car_key.jsonld"
         },
         "version": "1.0",
         "type": "CarKey"

@@ -1,0 +1,13 @@
+{
+    "title": "Car key",
+    "description": "",
+    "issuerName": "Worldline Issuer",
+    "titleTextColor": "#46BEAA",
+    "descriptionTextColor": "#46BEAA",
+    "issuerTextColor": "#46BEAA",
+    "backgroundImageUrl": "https://assets-global.website-files.com/65539161caecaabddc65e3ea/659d275bc12e1f28a567ee62_60db11dcec2a506ead6a2a2b_7.png",
+    "logo": {
+      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
+      "alt": "Logo Worldline"
+    }
+  }

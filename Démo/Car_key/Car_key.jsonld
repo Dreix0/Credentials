@@ -1,0 +1,39 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "CarKey": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:df47ba4f-e8fb-4104-84e4-468cf4af252d#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "StartRental": {
+                        "@id": "polygon-vocab:StartRental",
+                        "@type": "xsd:dateTime"
+                    },
+                    "EndRental": {
+                        "@id": "polygon-vocab:EndRental",
+                        "@type": "xsd:dateTime"
+                    },
+                    "CarBrand": {
+                        "@id": "polygon-vocab:CarBrand",
+                        "@type": "xsd:string"
+                    },
+                    "CarModel": {
+                        "@id": "polygon-vocab:CarModel",
+                        "@type": "xsd:string"
+                    },
+                    "NumberPlate": {
+                        "@id": "polygon-vocab:NumberPlate",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:8e6e9205-4179-45c9-8e13-957e485ecf5f"
+            }
+        }
+    ]
+}

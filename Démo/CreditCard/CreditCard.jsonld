@@ -1,0 +1,35 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "CreditCard": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:ed9c3dcf-8c3b-40d6-9fac-6662886108d8#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "CardHolder": {
+                        "@id": "polygon-vocab:CardHolder",
+                        "@type": "xsd:string"
+                    },
+                    "CardNumber": {
+                        "@id": "polygon-vocab:CardNumber",
+                        "@type": "xsd:positiveInteger"
+                    },
+                    "Expiration": {
+                        "@id": "polygon-vocab:Expiration",
+                        "@type": "xsd:string"
+                    },
+                    "CVV": {
+                        "@id": "polygon-vocab:CVV",
+                        "@type": "xsd:positiveInteger"
+                    }
+                },
+                "@id": "urn:uuid:79f3affb-8503-4957-8400-7b60cedce5ae"
+            }
+        }
+    ]
+}

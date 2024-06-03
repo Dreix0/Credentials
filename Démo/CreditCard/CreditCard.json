@@ -28,10 +28,8 @@
                 "CardNumber": {
                     "description": "Number of the credit card",
                     "title": "Card Number",
-                    "format": "positive-integer",
                     "maxLength": 16,
                     "minLength": 16,
-                    "pattern": "0-9",
                     "type": "string"
                 },
                 "Expiration": {
@@ -42,10 +40,8 @@
                 "CVV": {
                     "description": "CVV",
                     "title": "CVV",
-                    "format": "positive-integer",
                     "maxLength": 3,
                     "minLength": 3,
-                    "pattern": "0-9",
                     "type": "string"
                 }
             },

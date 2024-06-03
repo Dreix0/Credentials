@@ -1,0 +1,13 @@
+{
+    "title": "Credit Card",
+    "description": "",
+    "issuerName": "Worldline Issuer",
+    "titleTextColor": "#46BEAA",
+    "descriptionTextColor": "#46BEAA",
+    "issuerTextColor": "#46BEAA",
+    "backgroundImageUrl": "https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/consumers/find-a-card/other/mc-standard-card-1280x720.png",
+    "logo": {
+      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
+      "alt": "Logo Worldline"
+    }
+  }

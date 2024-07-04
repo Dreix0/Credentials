@@ -1,13 +1,13 @@
 {
-    "title": "Assurance Auto",
+    "title": "Car insurance",
     "description": "",
-    "issuerName": "Worldline Issuer",
-    "titleTextColor": "#46BEAA",
-    "descriptionTextColor": "#46BEAA",
-    "issuerTextColor": "#46BEAA",
-    "backgroundImageUrl": "https://www.moneyvox.fr/i/media/12l/012260la63.jpg",
+    "issuerName": "Axa Issuer",
+    "titleTextColor": "#000",
+    "descriptionTextColor": "#000",
+    "issuerTextColor": "#000",
+    "backgroundImageUrl": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Assurance/Image.png",
     "logo": {
-      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
-      "alt": "Logo Worldline"
+      "uri": "https://www.creads.com/wp-content/uploads/2021/05/axa-logo-1024x1024-1-1024x1024.jpg",
+      "alt": "Logo Axa"
     }
   }

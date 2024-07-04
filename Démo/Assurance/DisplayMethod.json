@@ -2,9 +2,9 @@
     "title": "Car insurance",
     "description": "",
     "issuerName": "Axa Issuer",
-    "titleTextColor": "#000",
-    "descriptionTextColor": "#000",
-    "issuerTextColor": "#000",
+    "titleTextColor": "#000000",
+    "descriptionTextColor": "#000000",
+    "issuerTextColor": "#000000",
     "backgroundImageUrl": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Assurance/Image.png",
     "logo": {
       "uri": "https://www.creads.com/wp-content/uploads/2021/05/axa-logo-1024x1024-1-1024x1024.jpg",

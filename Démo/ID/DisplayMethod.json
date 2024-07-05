@@ -1,13 +1,13 @@
 {
-    "title": "Carte d'identité",
+    "title": "Identity card",
     "description": "",
-    "issuerName": "Worldline Issuer",
-    "titleTextColor": "#46BEAA",
-    "descriptionTextColor": "#46BEAA",
-    "issuerTextColor": "#46BEAA",
-    "backgroundImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Carte_identit%C3%A9_%C3%A9lectronique_fran%C3%A7aise_%282021%2C_recto%29.png",
+    "issuerName": "République française",
+    "titleTextColor": "#000000",
+    "descriptionTextColor": "#000000",
+    "issuerTextColor": "#000000",
+    "backgroundImageUrl": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/ID/Image.png",
     "logo": {
-      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
-      "alt": "Logo Worldline"
+      "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOHSikBpn1RiP40bCrdutMMtYbtp8WXf4dQ&s",
+      "alt": "Logo Gouvernement français"
     }
   }

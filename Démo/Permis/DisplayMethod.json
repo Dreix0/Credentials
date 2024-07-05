@@ -1,13 +1,13 @@
 {
-    "title": "Permis de conduire",
+    "title": "Driver's license",
     "description": "",
-    "issuerName": "Worldline Issuer",
-    "titleTextColor": "#46BEAA",
-    "descriptionTextColor": "#46BEAA",
-    "issuerTextColor": "#46BEAA",
-    "backgroundImageUrl": "https://evs-strapi-images.s3.eu-west-3.amazonaws.com/photo_fc_recuperation_point_permis_6ad696f843.jpg",
+    "issuerName": "République française",
+    "titleTextColor": "#000000",
+    "descriptionTextColor": "#000000",
+    "issuerTextColor": "#000000",
+    "backgroundImageUrl": "https://raw.githubusercontent.com/Dreix0/Credentials/main/D%C3%A9mo/Permis/Image.png",
     "logo": {
-      "uri": "https://www.fevad.com/wp-content/uploads/2023/10/Worldline-Mint-Vertical-200x200.png",
-      "alt": "Logo Worldline"
+      "uri": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOHSikBpn1RiP40bCrdutMMtYbtp8WXf4dQ&s",
+      "alt": "Logo Gouvernement français"
     }
   }
